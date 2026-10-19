@@ -1,0 +1,23 @@
+{
+  "desktopPixels": {
+    "colored": 115143,
+    "width": 864,
+    "height": 657
+  },
+  "mobilePixels": {
+    "colored": 32831,
+    "width": 390,
+    "height": 349
+  },
+  "errors": [],
+  "checks": [
+    "render",
+    "rotation",
+    "dimensions",
+    "parameter-rebuild",
+    "version-restore",
+    "playback",
+    "STEP-download",
+    "mobile-layout"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checks": [
+    {
+      "size": {
+        "width": 1440,
+        "height": 900
+      },
+      "pixels": 156604
+    },
+    {
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "pixels": 44580
+    }
+  ],
+  "orbit": true,
+  "parameterValues": {
+    "alpha": 20,
+    "beta": 15,
+    "bore": 12
+  },
+  "errors": []
+}

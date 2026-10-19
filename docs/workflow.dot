@@ -1,0 +1,19 @@
+digraph workflow {
+  graph [rankdir=TB, bgcolor="white", pad=0.3, nodesep=0.35, ranksep=0.4];
+  node [shape=box, style="rounded,filled", color="#cddae0", fillcolor="#f4f7f9", fontname="Noto Sans CJK SC", fontsize=12, margin="0.2,0.1"];
+  edge [color="#8a9fab", fontname="Noto Sans CJK SC", fontsize=10];
+  input [label="中文需求 + 当前版本"];
+  plan [label="本地模型规划\n参数表 + 特征序列", fillcolor="#e8eff8"];
+  execute [label="逐步执行 CAD 工具\n保存快照 · 推送尺寸", fillcolor="#e8f3ee"];
+  valid [label="结构 / 几何有效？", shape=diamond];
+  repair [label="错误反馈与重新规划\n最多修复两次"];
+  export [label="导出文件 + 保存新版本", fillcolor="#e2f1f2"];
+  failed [label="澄清 / 失败\n保留上一成功版本"];
+  input -> plan -> execute -> valid;
+  valid -> export [label="是"];
+  valid -> repair [label="否"];
+  repair -> plan [label="可修复"];
+  repair -> failed [label="超限或要求冲突"];
+  plan -> failed [label="关键参数不明确"];
+  export -> input [label="多轮修改", style=dashed];
+}

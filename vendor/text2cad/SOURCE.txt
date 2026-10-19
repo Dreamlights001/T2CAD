@@ -1,0 +1,7 @@
+Vendored execution files from:
+https://github.com/MLYengineering/Text2CAD
+
+The upstream repository is MIT licensed. This folder contains run_freecad.py and
+occ_render.py from the main branch as of 2026-10-19. The local adapter supplies
+FREECAD_CMD and CAD_WORKDIR and keeps Qwen planning outside the upstream Azure
+agent dependencies.

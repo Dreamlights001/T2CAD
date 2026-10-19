@@ -1,0 +1,198 @@
+{
+  "model": "Qwen3.8-27B",
+  "cases": [
+    {
+      "prompt": "生成一个模数2、齿数17、厚度20毫米的圆柱直齿轮，不需要内孔。",
+      "job_id": "0bda081f457e478eb8e17c4fa03277bd",
+      "project_id": "c8667d4ab07f4560836ba69a22001fec",
+      "status": "completed",
+      "seconds": 320.69,
+      "health": {
+        "status": "ok",
+        "service": "t2cad",
+        "cad_engine": "earthtojake/text-to-cad / cadgen 0.7.24 / build123d",
+        "cad_python": "/home/dlts/miniconda3/envs/T2CAD-CAD/bin/python",
+        "model_exists": true,
+        "model_name": "Qwen3.8-27B-Q4_K_M.gguf",
+        "model_loaded": true,
+        "active_model": "Qwen3.8-27B-Q4_K_M.gguf",
+        "load_seconds": 298.11,
+        "ram_available_gb": 7.28,
+        "runtime": "llama-server CUDA / GGUF",
+        "active_jobs": [
+          {
+            "id": "5b8afc761abf4f9d9efe62017c33bf6f",
+            "project_id": "e05f9d465fc640aa827aceef9beb40d8",
+            "status": "running",
+            "created": "2026-10-19T09:45:56.969429+00:00",
+            "base_revision": null,
+            "error": null
+          }
+        ]
+      },
+      "error": null,
+      "inference": [
+        {
+          "type": "result",
+          "usage": {
+            "completion_tokens": 286,
+            "prompt_tokens": 2007,
+            "total_tokens": 2293,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            }
+          },
+          "seconds": 11.95,
+          "model": "Qwen3.8-27B-Q4_K_M.gguf",
+          "runtime": "llama-server"
+        }
+      ],
+      "fallbacks": [],
+      "revision_id": "fdc7346bdd1b41c7ab16d452056fb6bf",
+      "metrics": {
+        "volume": 17615.531317959103,
+        "area": 6238.743617544352,
+        "solids": 1,
+        "bounds": [
+          -18.78857205338,
+          -18.969227371591423,
+          -1e-07,
+          19.000000099999983,
+          18.969227371591423,
+          20.0000001
+        ],
+        "size": [
+          37.78857215337999,
+          37.938454743182845,
+          20.000000200000002
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "高度",
+            "value": 20.0,
+            "unit": "mm"
+          },
+          {
+            "label": "模数",
+            "value": 2.0,
+            "unit": "mm"
+          },
+          {
+            "label": "齿数",
+            "value": 17.0,
+            "unit": "count"
+          },
+          {
+            "label": "压力角",
+            "value": 20.0,
+            "unit": "deg"
+          },
+          {
+            "label": "基圆直径",
+            "value": 31.949549106720887,
+            "unit": "mm"
+          },
+          {
+            "label": "齿顶圆直径",
+            "value": 38.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "verified": true
+    },
+    {
+      "prompt": "把齿轮厚度改为15毫米，模数2和齿数17保持不变，不要加孔。",
+      "job_id": "e08ffa59db634e53baba71f3220fef1a",
+      "project_id": "c8667d4ab07f4560836ba69a22001fec",
+      "status": "completed",
+      "seconds": 34.72,
+      "health": {
+        "status": "ok",
+        "service": "t2cad",
+        "cad_engine": "earthtojake/text-to-cad / cadgen 0.7.24 / build123d",
+        "cad_python": "/home/dlts/miniconda3/envs/T2CAD-CAD/bin/python",
+        "model_exists": true,
+        "model_name": "Qwen3.8-27B-Q4_K_M.gguf",
+        "model_loaded": true,
+        "active_model": "Qwen3.8-27B-Q4_K_M.gguf",
+        "load_seconds": 298.11,
+        "ram_available_gb": 6.28,
+        "runtime": "llama-server CUDA / GGUF",
+        "active_jobs": []
+      },
+      "error": null,
+      "inference": [
+        {
+          "type": "result",
+          "usage": {
+            "completion_tokens": 141,
+            "prompt_tokens": 2234,
+            "total_tokens": 2375,
+            "prompt_tokens_details": {
+              "cached_tokens": 1911
+            }
+          },
+          "seconds": 4.2,
+          "model": "Qwen3.8-27B-Q4_K_M.gguf",
+          "runtime": "llama-server"
+        }
+      ],
+      "fallbacks": [],
+      "revision_id": "0e9a4d352ee146f489acebe998f06225",
+      "metrics": {
+        "volume": 13211.648488469327,
+        "area": 5119.445253465149,
+        "solids": 1,
+        "bounds": [
+          -18.78857205338,
+          -18.969227371591423,
+          -1e-07,
+          19.000000099999983,
+          18.969227371591423,
+          15.0000001
+        ],
+        "size": [
+          37.78857215337999,
+          37.938454743182845,
+          15.000000199999999
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "高度",
+            "value": 15.0,
+            "unit": "mm"
+          },
+          {
+            "label": "模数",
+            "value": 2.0,
+            "unit": "mm"
+          },
+          {
+            "label": "齿数",
+            "value": 17.0,
+            "unit": "count"
+          },
+          {
+            "label": "压力角",
+            "value": 20.0,
+            "unit": "deg"
+          },
+          {
+            "label": "基圆直径",
+            "value": 31.949549106720887,
+            "unit": "mm"
+          },
+          {
+            "label": "齿顶圆直径",
+            "value": 38.0,
+            "unit": "mm"
+          }
+        ]
+      },
+      "verified": true
+    }
+  ]
+}

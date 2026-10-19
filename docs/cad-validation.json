@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-19T14:37:28.747068+08:00",
+  "engine": "earthtojake/text-to-cad / cadgen 0.7.24 / build123d",
+  "examples": [
+    {
+      "id": "plate",
+      "name": "四孔安装板",
+      "features": 3,
+      "size_mm": [
+        100.0,
+        60.0,
+        8.0
+      ],
+      "volume_mm3": 46985.34517542574,
+      "valid_step": true,
+      "watertight_stl": true,
+      "step_relative_volume_error": 0.0,
+      "script_relative_volume_error": 0.0,
+      "worker_seconds": 1.388,
+      "validation_seconds": 5.04,
+      "files": {
+        "step": 47941,
+        "stl": 119884,
+        "glb": 68960,
+        "py": 17113
+      }
+    },
+    {
+      "id": "flange",
+      "name": "带颈法兰",
+      "features": 8,
+      "size_mm": [
+        90.0,
+        90.0,
+        28.0
+      ],
+      "volume_mm3": 76780.52445373723,
+      "valid_step": true,
+      "watertight_stl": true,
+      "step_relative_volume_error": 0.0,
+      "script_relative_volume_error": 0.0,
+      "worker_seconds": 1.532,
+      "validation_seconds": 4.69,
+      "files": {
+        "step": 33736,
+        "stl": 179284,
+        "glb": 105272,
+        "py": 17976
+      }
+    },
+    {
+      "id": "sleeve",
+      "name": "阶梯轴套",
+      "features": 5,
+      "size_mm": [
+        48.0,
+        48.0,
+        45.0
+      ],
+      "volume_mm3": 36329.377446111124,
+      "valid_step": true,
+      "watertight_stl": true,
+      "step_relative_volume_error": 0.0,
+      "script_relative_volume_error": 0.0,
+      "worker_seconds": 1.621,
+      "validation_seconds": 4.84,
+      "files": {
+        "step": 19791,
+        "stl": 142884,
+        "glb": 85260,
+        "py": 17152
+      }
+    },
+    {
+      "id": "bracket",
+      "name": "L 形安装支架",
+      "features": 5,
+      "size_mm": [
+        80.0,
+        50.0,
+        61.0
+      ],
+      "volume_mm3": 40038.18587992215,
+      "valid_step": true,
+      "watertight_stl": true,
+      "step_relative_volume_error": 0.0,
+      "script_relative_volume_error": 0.0,
+      "worker_seconds": 2.014,
+      "validation_seconds": 5.3,
+      "files": {
+        "step": 33107,
+        "stl": 43884,
+        "glb": 27676,
+        "py": 17374
+      }
+    },
+    {
+      "id": "housing",
+      "name": "开口仪器壳体",
+      "features": 4,
+      "size_mm": [
+        100.0,
+        70.0,
+        35.0
+      ],
+      "volume_mm3": 51407.29188601101,
+      "valid_step": true,
+      "watertight_stl": true,
+      "step_relative_volume_error": 0.0,
+      "script_relative_volume_error": 0.0,
+      "worker_seconds": 1.363,
+      "validation_seconds": 3.74,
+      "files": {
+        "step": 62874,
+        "stl": 21684,
+        "glb": 13776,
+        "py": 17186
+      }
+    }
+  ]
+}

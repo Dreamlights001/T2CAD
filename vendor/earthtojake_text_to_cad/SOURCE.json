@@ -1,0 +1,28 @@
+{
+  "repository": "https://github.com/earthtojake/text-to-cad",
+  "reviewed_source_commit": "b316da8ff264e774c7499c8fde521be198092d60",
+  "reviewed_branch": "main",
+  "license": "MIT",
+  "runtime_distribution": "cadgen",
+  "runtime_version": "0.7.24",
+  "runtime_install": "python -m pip install -r requirements-cad.txt",
+  "wheel": "cadgen-0.7.24-py3-none-any.whl",
+  "wheel_sha256": "c0672bf9d32c2ce01cab366b6a1baf65d68126f2ed1d96516188a28df4b2d937",
+  "integration": {
+    "model_generation": "cadgen.build123d native shapes",
+    "exports": ["cadgen.step", "cadgen.stl", "cadgen.glb"],
+    "verification": ["cadgen.read_step", "cadgen.geometry.is_sound"],
+    "entrypoint": "standalone model.py decorated source program",
+    "planner": "local Qwen3.8-27B Q4_K_M",
+    "viewer": "existing React/Three.js frontend",
+    "environment": "T2CAD-CAD",
+    "telemetry": false,
+    "daemon": false
+  },
+  "related_packages": {
+    "build123d": "0.11.1",
+    "cadquery-ocp-novtk": "7.9.3.1.1",
+    "bd-warehouse": "0.3.0"
+  },
+  "note": "The installed release is the runtime dependency; the reviewed main commit records source provenance, not a claim that a main-branch development checkout equals the released wheel. The old MLYengineering runner is not used by the current CAD worker."
+}

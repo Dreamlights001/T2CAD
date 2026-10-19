@@ -1,0 +1,19 @@
+digraph architecture {
+  graph [rankdir=LR, bgcolor="white", pad=0.3, nodesep=0.5, ranksep=0.6];
+  node [shape=box, style="rounded,filled", color="#ccd9df", fillcolor="#f4f7f9", fontname="Noto Sans CJK SC", fontsize=12, margin="0.2,0.15"];
+  edge [color="#879ca8", fontname="Noto Sans CJK SC", fontsize=10];
+  browser [label="React / Three.js\n对话 · 参数 · 特征 · 三维视图"];
+  api [label="FastAPI\n任务队列 · 校验 · 版本管理", fillcolor="#e6f2f2"];
+  model [label="本地推理进程\nQwen3.8 GGUF + CUDA", fillcolor="#edf0fa"];
+  cad [label="T2CAD-CAD 子进程\nearthtojake/text-to-cad\ncadgen / build123d / OpenCascade", fillcolor="#edf5ee"];
+  db [label="SQLite\n项目 · 对话 · 版本 · 事件", shape=cylinder];
+  files [label="本地文件\n快照 · STEP · STL · GLB · Python", shape=folder];
+  browser -> api [label="REST"];
+  api -> browser [label="SSE / 几何"];
+  api -> model [label="需求 / 当前设计"];
+  model -> api [label="结构化计划"];
+  api -> cad [label="特征序列"];
+  cad -> api [label="结果 / 错误"];
+  api -> db;
+  cad -> files;
+}

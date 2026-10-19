@@ -1,0 +1,87 @@
+{
+  "prompt": "生成一个模数2、齿数17、厚度20毫米，alpha20度，beta15度的圆柱斜齿轮，内孔直径12。",
+  "project_id": "524023d0e9ec43ada1c99c6d027e7c21",
+  "job_id": "8facf38f4faf4142aca656356dcbe1ab",
+  "revision_id": "49a8c3bff3274166b90fc2fc4aebb330",
+  "model": "Qwen3.8-27B-Q4_K_M.gguf",
+  "engine": "earthtojake/text-to-cad / cadgen 0.7.24 / build123d",
+  "metrics": {
+    "volume": 16668.727298445752,
+    "area": 7049.945189378925,
+    "solids": 1,
+    "bounds": [
+      -19.59969513617718,
+      -19.599695166970637,
+      -1.0000000710542735e-07,
+      19.59969516697101,
+      19.599695100098177,
+      20.000000100000012
+    ],
+    "size": [
+      39.19939030314819,
+      39.199390267068814,
+      20.00000020000002
+    ],
+    "valid": true,
+    "dimensions": [
+      {
+        "label": "孔径",
+        "value": 12.0,
+        "unit": "mm"
+      },
+      {
+        "label": "法向模数",
+        "value": 2.0,
+        "unit": "mm"
+      },
+      {
+        "label": "齿数",
+        "value": 17,
+        "unit": "count"
+      },
+      {
+        "label": "压力角",
+        "value": 20.0,
+        "unit": "deg"
+      },
+      {
+        "label": "螺旋角",
+        "value": 15.0,
+        "unit": "deg"
+      },
+      {
+        "label": "基圆直径",
+        "value": 32.93857697036506,
+        "unit": "mm"
+      },
+      {
+        "label": "齿顶圆直径",
+        "value": 39.19939013394282,
+        "unit": "mm"
+      }
+    ],
+    "gear": {
+      "module_system": "normal",
+      "module": 2.0,
+      "normal_module": 2.0,
+      "transverse_module": 2.070552360820166,
+      "pressure_angle": 20.0,
+      "normal_pressure_angle": 20.0,
+      "transverse_pressure_angle": 20.64689648704647,
+      "teeth": 17,
+      "height": 20.0,
+      "helix_angle": 15.0,
+      "twist_angle": 17.446163461153578,
+      "hand": "right",
+      "pitch_diameter": 35.19939013394282,
+      "base_diameter": 32.93857697036506,
+      "tip_diameter": 39.19939013394282,
+      "root_diameter": 30.19939013394282,
+      "lead": 412.6981852504047
+    }
+  },
+  "repairs": [],
+  "verified": true,
+  "display_revision_id": "78fbfdba7eae45a896eb84430fa2bbb5",
+  "display_job_id": "76af1a61048e45e78eba13d4ca449e92"
+}

@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-19T01:12:08.735828+08:00",
+  "cases": [
+    {
+      "project_id": "5c661a39cdca4d028f2d57507a75b7cf",
+      "job_id": "4afd3775884745cdbef5c2688dc7e272",
+      "prompt": "生成一个长100、宽60、厚8毫米的矩形安装板，四个直径6毫米的通孔，孔中心距相邻的两边均12毫米。不加圆角。",
+      "status": "completed",
+      "seconds": 11.51,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.8,
+          "usage": {
+            "prompt_tokens": 1722,
+            "completion_tokens": 195,
+            "total_tokens": 1917
+          }
+        }
+      ],
+      "revision_id": "fa70b97c5c634819a37a5d3357d3350e",
+      "metrics": {
+        "volume": 47095.22131576613,
+        "area": 14936.991118430771,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          8.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          8.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 6.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "5c661a39cdca4d028f2d57507a75b7cf",
+      "job_id": "1819b6a842414243a5e2296cf47c85e1",
+      "prompt": "把四个孔的孔径改为8毫米，其他参数和孔位置不变。",
+      "status": "completed",
+      "seconds": 8.85,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 6.11,
+          "usage": {
+            "prompt_tokens": 2011,
+            "completion_tokens": 211,
+            "total_tokens": 2222
+          }
+        }
+      ],
+      "revision_id": "6fa2c688610c4055a63809d2080696fc",
+      "metrics": {
+        "volume": 46391.50456136202,
+        "area": 14962.123859659492,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          8.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          8.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "5c661a39cdca4d028f2d57507a75b7cf",
+      "job_id": "78fb35bef96d46449ff3272c2cda5287",
+      "prompt": "板厚增加到10毫米，其他尺寸及孔位置保持不变。",
+      "status": "completed",
+      "seconds": 7.27,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.71,
+          "usage": {
+            "prompt_tokens": 2080,
+            "completion_tokens": 214,
+            "total_tokens": 2294
+          }
+        }
+      ],
+      "revision_id": "470aa83939574033b3e9445eeec9c43b",
+      "metrics": {
+        "volume": 57989.38070170253,
+        "area": 15803.185789489238,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          10.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          10.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "5c661a39cdca4d028f2d57507a75b7cf",
+      "job_id": "2b6547d4f0c548849eb01794970fea72",
+      "prompt": "把长度改为120毫米，仍保持孔中心距相邻两边12毫米，其他尺寸不变。",
+      "status": "completed",
+      "seconds": 7.16,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.81,
+          "usage": {
+            "prompt_tokens": 2112,
+            "completion_tokens": 217,
+            "total_tokens": 2329
+          }
+        }
+      ],
+      "revision_id": "5e37f03d58c643e18482dea828a80d06",
+      "metrics": {
+        "volume": 69989.38070170254,
+        "area": 18603.185789489246,
+        "solids": 1,
+        "bounds": [
+          -60.0,
+          -30.0,
+          0.0,
+          60.0,
+          30.0,
+          10.0
+        ],
+        "size": [
+          120.0,
+          60.0,
+          10.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "58ecb7343b4648a398b593edddc773dd",
+      "job_id": "5bf759483a9b4d28a337e226e789f207",
+      "prompt": "生成阶梯轴套：主体外径36、内径20、总高45毫米；底部有外径48、厚6毫米的同心底缘，底缘包含在总高45内。中心孔贯穿全部，不加倒角或圆角。",
+      "status": "failed",
+      "seconds": 34.67,
+      "repairs": 2,
+      "error": "最终外形尺寸不符合目标：Z 实测 39 mm，要求 45 mm。请检查各特征的 origin、height、distance 和布尔合并；不要修改目标尺寸。",
+      "verification": "未完成",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 7.97,
+          "usage": {
+            "prompt_tokens": 1754,
+            "completion_tokens": 300,
+            "total_tokens": 2054
+          }
+        },
+        {
+          "type": "result",
+          "seconds": 11.56,
+          "usage": {
+            "prompt_tokens": 2224,
+            "completion_tokens": 439,
+            "total_tokens": 2663
+          }
+        },
+        {
+          "type": "result",
+          "seconds": 11.74,
+          "usage": {
+            "prompt_tokens": 2264,
+            "completion_tokens": 437,
+            "total_tokens": 2701
+          }
+        }
+      ]
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3090, 10356 MiB, 24576 MiB, 7 %",
+    "ram_used_gb": 4.64,
+    "ram_available_gb": 10.8,
+    "health": {
+      "status": "ok",
+      "service": "t2cad",
+      "model_exists": true,
+      "model_name": "Qwen3-14B-Q4_K_M.gguf",
+      "model_loaded": true,
+      "load_seconds": 3.56,
+      "ram_available_gb": 10.8,
+      "runtime": "llama.cpp CUDA / GGUF",
+      "active_jobs": []
+    }
+  }
+}

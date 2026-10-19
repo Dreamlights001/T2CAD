@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-19T00:46:23.534530+08:00",
+  "cases": [
+    {
+      "project_id": "7332afb6249e4214bee209b34972d68a",
+      "job_id": "1a0eaf8288bc45d1a3c7bbd1dd58a9a0",
+      "prompt": "生成一个长100、宽60、厚8毫米的矩形安装板，四个直径6毫米的通孔，孔中心距相邻的两边均12毫米。不加圆角。",
+      "status": "verification_failed",
+      "seconds": 21.21,
+      "repairs": 0,
+      "error": null,
+      "verification": "Expected hole center is solid",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 6.54,
+          "usage": {
+            "prompt_tokens": 1258,
+            "completion_tokens": 231,
+            "total_tokens": 1489
+          }
+        }
+      ],
+      "revision_id": "93c8d76c8b0240c2ad07930f19b11499",
+      "metrics": {
+        "volume": 47095.22131576613,
+        "area": 14936.991118430771,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          8.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          8.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 6.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3090, 10251 MiB, 24576 MiB, 6 %",
+    "ram_used_gb": 4.48,
+    "ram_available_gb": 10.96,
+    "health": {
+      "status": "ok",
+      "service": "t2cad",
+      "model_exists": true,
+      "model_name": "Qwen3-14B-Q4_K_M.gguf",
+      "model_loaded": true,
+      "load_seconds": 12.19,
+      "ram_available_gb": 10.96,
+      "runtime": "llama.cpp CUDA / GGUF",
+      "active_jobs": []
+    }
+  }
+}

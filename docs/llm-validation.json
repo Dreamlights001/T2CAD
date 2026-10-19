@@ -1,0 +1,436 @@
+{
+  "date": "2026-10-19T01:21:55.285863+08:00",
+  "cases": [
+    {
+      "project_id": "de9487cbe1194ba3a301af1799eda421",
+      "job_id": "8ba32972549a4e758d83e806d81b9ac0",
+      "prompt": "生成一个长100、宽60、厚8毫米的矩形安装板，四个直径6毫米的通孔，孔中心距相邻的两边均12毫米。不加圆角。",
+      "status": "completed",
+      "seconds": 20.28,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 6.81,
+          "usage": {
+            "prompt_tokens": 1948,
+            "completion_tokens": 228,
+            "total_tokens": 2176
+          }
+        }
+      ],
+      "revision_id": "5fdbfdf912d4476e827c7e98986a8ffd",
+      "metrics": {
+        "volume": 47095.22131576613,
+        "area": 14936.991118430771,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          8.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          8.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 6.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "de9487cbe1194ba3a301af1799eda421",
+      "job_id": "f7edb61470db4199800b99a5395596ba",
+      "prompt": "把四个孔的孔径改为8毫米，其他参数和孔位置不变。",
+      "status": "completed",
+      "seconds": 7.14,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.76,
+          "usage": {
+            "prompt_tokens": 2270,
+            "completion_tokens": 214,
+            "total_tokens": 2484
+          }
+        }
+      ],
+      "revision_id": "be8fb6edbb5741269e84ca75371ab44a",
+      "metrics": {
+        "volume": 46391.50456136202,
+        "area": 14962.123859659492,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          8.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          8.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "de9487cbe1194ba3a301af1799eda421",
+      "job_id": "227891cd70e849ef890a6387785b8b85",
+      "prompt": "板厚增加到10毫米，其他尺寸及孔位置保持不变。",
+      "status": "completed",
+      "seconds": 7.12,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.73,
+          "usage": {
+            "prompt_tokens": 2342,
+            "completion_tokens": 213,
+            "total_tokens": 2555
+          }
+        }
+      ],
+      "revision_id": "64560a8dee2848caaaed44440dad9f11",
+      "metrics": {
+        "volume": 57989.38070170253,
+        "area": 15803.185789489238,
+        "solids": 1,
+        "bounds": [
+          -50.0,
+          -30.0,
+          0.0,
+          50.0,
+          30.0,
+          10.0
+        ],
+        "size": [
+          100.0,
+          60.0,
+          10.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "de9487cbe1194ba3a301af1799eda421",
+      "job_id": "4538060bdd1a4653bf964907a13ea079",
+      "prompt": "把长度改为120毫米，仍保持孔中心距相邻两边12毫米，其他尺寸不变。",
+      "status": "completed",
+      "seconds": 7.24,
+      "repairs": 0,
+      "error": null,
+      "verification": "尺寸、体积、四孔位置与孔壁符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 5.92,
+          "usage": {
+            "prompt_tokens": 2373,
+            "completion_tokens": 218,
+            "total_tokens": 2591
+          }
+        }
+      ],
+      "revision_id": "4ee57bdba0a94ae4ab91f4f287f7422f",
+      "metrics": {
+        "volume": 69989.38070170254,
+        "area": 18603.185789489246,
+        "solids": 1,
+        "bounds": [
+          -60.0,
+          -30.0,
+          0.0,
+          60.0,
+          30.0,
+          10.0
+        ],
+        "size": [
+          120.0,
+          60.0,
+          10.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 8.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "fcd7de8cdc2a4ec7b87d66f6a0906ba6",
+      "job_id": "464b99c2b3524e16a8d952f5ec498f9e",
+      "prompt": "纠正上轮轴套。请严格按以下步骤：主体圆柱外径36毫米、高45毫米、origin=[0,0,0]；底缘圆柱外径48毫米、高6毫米、origin=[0,0,0]。两圆柱同底面重叠，不是上下叠放，主体高度不要减去底缘厚度。先union合并两实体，再对合并结果钻直径20毫米的中心通孔。最终外形48×48×45毫米。",
+      "status": "completed",
+      "seconds": 10.24,
+      "repairs": 0,
+      "error": null,
+      "verification": "包围尺寸、体积、中心孔及孔位符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 8.59,
+          "usage": {
+            "prompt_tokens": 2609,
+            "completion_tokens": 307,
+            "total_tokens": 2916
+          },
+          "planning_tokens": 0
+        }
+      ],
+      "revision_id": "8884f5dc4a964b80a73ea403e51bfb77",
+      "metrics": {
+        "volume": 36417.34204041288,
+        "area": 11133.804364322226,
+        "solids": 1,
+        "bounds": [
+          -24.0,
+          -24.0,
+          0.0,
+          24.0,
+          24.0,
+          45.0
+        ],
+        "size": [
+          48.0,
+          48.0,
+          45.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 20.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    },
+    {
+      "project_id": "828741e296e04217b1041cf0025127c6",
+      "job_id": "833b1fec180b49c8816cfb9858659bc7",
+      "prompt": "纠正上轮法兰：圆盘直径90、高10、origin=[0,0,0]；凸台直径44、高18、origin=[0,0,10]。union合并后钻中心直径24通孔，再用bolt_circle布局半径33、数量4、孔径7，钻四个通孔。最终外形90×90×28毫米。",
+      "status": "completed",
+      "seconds": 12.3,
+      "repairs": 0,
+      "error": null,
+      "verification": "包围尺寸、体积、中心孔及孔位符合预期",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 11.14,
+          "usage": {
+            "prompt_tokens": 2442,
+            "completion_tokens": 392,
+            "total_tokens": 2834
+          },
+          "planning_tokens": 0
+        }
+      ],
+      "revision_id": "742101ee324a4178b193d6d333b02f0d",
+      "metrics": {
+        "volume": 76780.52445373453,
+        "area": 19817.16645884441,
+        "solids": 1,
+        "bounds": [
+          -45.0,
+          -45.0,
+          0.0,
+          45.0,
+          45.0,
+          28.0
+        ],
+        "size": [
+          90.0,
+          90.0,
+          28.0
+        ],
+        "valid": true,
+        "dimensions": [
+          {
+            "label": "孔径",
+            "value": 7.0,
+            "unit": "mm"
+          }
+        ]
+      }
+    }
+  ],
+  "hardware": {
+    "gpu": "NVIDIA GeForce RTX 3090, 10374 MiB, 24576 MiB, 8 %",
+    "ram_used_gb": 4.72,
+    "ram_available_gb": 10.72,
+    "health": {
+      "status": "ok",
+      "service": "t2cad",
+      "model_exists": true,
+      "model_name": "Qwen3-14B-Q4_K_M.gguf",
+      "model_loaded": true,
+      "load_seconds": 4.39,
+      "ram_available_gb": 10.72,
+      "runtime": "llama.cpp CUDA / GGUF",
+      "active_jobs": []
+    }
+  },
+  "previous_failures": [
+    {
+      "project_id": "6566689c0e584b22b122a2a76ee09698",
+      "job_id": "4a4677aa17424520b0c954e183b0e987",
+      "prompt": "生成阶梯轴套：主体外径36、内径20、总高45毫米；底部有外径48、厚6毫米的同心底缘，底缘包含在总高45内。中心孔贯穿全部，不加倒角或圆角。",
+      "status": "failed",
+      "seconds": 37.36,
+      "repairs": 2,
+      "error": "最终外形尺寸不符合目标：Z 实测 39 mm，要求 45 mm。请检查各特征的 origin、height、distance 和布尔合并；不要修改目标尺寸。\n各特征实际包围盒[xmin,ymin,zmin,xmax,ymax,zmax]: [{\"id\": \"body_cylinder\", \"bounds\": [-18.0, -18.0, 0.0, 18.0, 18.0, 39.0]}, {\"id\": \"body_inner_hole\", \"bounds\": [-18.0, -18.0, 0.0, 18.0, 18.0, 39.0]}, {\"id\": \"base_cylinder\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 6.0]}, {\"id\": \"joined\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 39.0]}, {\"id\": \"bore_hole\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 39.0]}]",
+      "verification": "未完成",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 8.15,
+          "usage": {
+            "prompt_tokens": 1980,
+            "completion_tokens": 307,
+            "total_tokens": 2287
+          }
+        },
+        {
+          "type": "result",
+          "seconds": 12.74,
+          "usage": {
+            "prompt_tokens": 2666,
+            "completion_tokens": 469,
+            "total_tokens": 3135
+          }
+        },
+        {
+          "type": "result",
+          "seconds": 12.66,
+          "usage": {
+            "prompt_tokens": 2768,
+            "completion_tokens": 464,
+            "total_tokens": 3232
+          }
+        }
+      ]
+    },
+    {
+      "project_id": "fcd7de8cdc2a4ec7b87d66f6a0906ba6",
+      "job_id": "d6aa0b5cd73545858fe1803b10966488",
+      "prompt": "生成阶梯轴套：主体外径36、内径20、总高45毫米；底部有外径48、厚6毫米的同心底缘，底缘包含在总高45内。中心孔贯穿全部，不加倒角或圆角。",
+      "status": "failed",
+      "seconds": 76.23,
+      "repairs": 2,
+      "error": "特征 bore (中心孔, hole): 钻孔未移除材料。孔位以面中心为原点，工作平面范围 u=[-18,18], v=[-18,18]。当前孔位=[[0, 0]]；请用正负半宽/半长减边距定位，并让连续钻孔 target 引用前一步。\n各特征实际包围盒[xmin,ymin,zmin,xmax,ymax,zmax]: [{\"id\": \"body_outer\", \"bounds\": [-18.0, -18.0, 0.0, 18.0, 18.0, 39.0]}, {\"id\": \"body_inner\", \"bounds\": [-10.0, -10.0, 0.0, 10.0, 10.0, 39.0]}, {\"id\": \"flange_outer\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 6.0]}, {\"id\": \"flange_inner\", \"bounds\": [-10.0, -10.0, 0.0, 10.0, 10.0, 6.0]}, {\"id\": \"body_hollow\", \"bounds\": [-18.0, -18.0, 0.0, 18.0, 18.0, 39.0]}, {\"id\": \"flange_hollow\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 6.0]}, {\"id\": \"joined\", \"bounds\": [-24.0, -24.0, 0.0, 24.0, 24.0, 39.0]}]",
+      "verification": "未完成",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 10.5,
+          "usage": {
+            "prompt_tokens": 1980,
+            "completion_tokens": 302,
+            "total_tokens": 2282
+          },
+          "planning_tokens": 0
+        },
+        {
+          "type": "result",
+          "seconds": 24.01,
+          "usage": {
+            "prompt_tokens": 3424,
+            "completion_tokens": 441,
+            "total_tokens": 3865
+          },
+          "planning_tokens": 768
+        },
+        {
+          "type": "result",
+          "seconds": 27.87,
+          "usage": {
+            "prompt_tokens": 3789,
+            "completion_tokens": 592,
+            "total_tokens": 4381
+          },
+          "planning_tokens": 768
+        }
+      ]
+    },
+    {
+      "project_id": "828741e296e04217b1041cf0025127c6",
+      "job_id": "1966a257ffab412cac193633d486beab",
+      "prompt": "生成带颈法兰：盘外径90、厚10毫米；盘顶同心凸台外径44、高18毫米；中心通孔直径24毫米。盘上直径66毫米的分布圆在正X、负X、正Y、负Y方向均匀布置四个直径7毫米的通孔，不加倒角。",
+      "status": "failed",
+      "seconds": 54.46,
+      "repairs": 2,
+      "error": "设计未完成：这些参数没有被任何几何操作引用，可能遗漏了孔、槽等特征：distribution_circle_d。请补全特征并通过参数名引用尺寸，不要删除参数。\n各特征实际包围盒[xmin,ymin,zmin,xmax,ymax,zmax]: [{\"id\": \"base_disk\", \"bounds\": [-45.0, -45.0, 0.0, 45.0, 45.0, 10.0]}, {\"id\": \"neck\", \"bounds\": [-22.0, -22.0, 10.0, 22.0, 22.0, 28.0]}, {\"id\": \"joined\", \"bounds\": [-45.0, -45.0, 0.0, 45.0, 45.0, 28.0]}, {\"id\": \"center_bore\", \"bounds\": [-45.0, -45.0, 0.0, 45.0, 45.0, 28.0]}, {\"id\": \"distribution_holes\", \"bounds\": [-45.0, -45.0, 0.0, 45.0, 45.0, 28.0]}]",
+      "verification": "未完成",
+      "inference": [
+        {
+          "type": "result",
+          "seconds": 7.18,
+          "usage": {
+            "prompt_tokens": 2012,
+            "completion_tokens": 270,
+            "total_tokens": 2282
+          },
+          "planning_tokens": 0
+        },
+        {
+          "type": "result",
+          "seconds": 17.99,
+          "usage": {
+            "prompt_tokens": 3042,
+            "completion_tokens": 385,
+            "total_tokens": 3427
+          },
+          "planning_tokens": 477
+        },
+        {
+          "type": "result",
+          "seconds": 26.36,
+          "usage": {
+            "prompt_tokens": 3597,
+            "completion_tokens": 549,
+            "total_tokens": 4146
+          },
+          "planning_tokens": 768
+        }
+      ]
+    }
+  ]
+}
